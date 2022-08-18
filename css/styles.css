@@ -1,0 +1,43 @@
+.header-busines,
+.header-busines a,.header-progects,.header-progects a,
+.features,
+.Work,
+.Links
+ {
+    background-color: #FFFFFF;
+    color: #212121;
+}
+
+.header-busines a:hover,
+.header-progects a:hover {
+  color: #2196F3;   
+}
+
+.header-busines a:focus,
+.header-progects a:focus {
+  outline: solid 1px;
+  color: #2196F3;   
+}
+
+.Our-team p,.features p,.Projects p{
+    color: #757575;
+}
+
+.Header-Web {
+    color: #2196F3;
+}
+.Busines {
+    background-color: #2F303A;
+    color: #FFFFFF;
+}
+
+.Our-team {
+    background-color: #F5F4FA;
+    color: #212121;
+}
+.Busines-footer,
+.Busines-footer a,.Contacts-footer,.Contacts-footer a {
+    background-color: #2F303A;
+    color: #FFFFFF;
+}
+ 
