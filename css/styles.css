@@ -1,43 +1,201 @@
-.header-busines,
-.header-busines a,.header-progects,.header-progects a,
-.features,
-.Work,
-.Links
+:root {
+    --fist-font:'Roboto', sans-serif;
+    --seccond-font:'Raleway', sans-serif;
+    --white-text-teme-dark:#FFFFFF;
+    --gray-text-teme-white: #757575; 
+    --black-text-teme-white:#212121;
+    --accent-color: #2196F3;
+    --background-color:#F5F5F5 ;
+    --color-logo:#000000 ;
+    --ES-color:#2F303A;
+    --Button:#188CE8;
+    --footer-contact: rgba(255, 255, 255, 0.6);
+}
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+
+img {
+    display: block;
+}
+button {
+    cursor:pointer;
+}
+
+body {
+    font-family:var(--fist-font);
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    background-color:var(--background-color);
+    color:var(--gray-text-teme-white);
+}
+
+.logo {
+font-family:var(--seccond-font);
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+color:var(--color-logo);
+}
+
+.menu-link {
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color:var(--black-text-teme-white);
+}
+
+.menu-link:hover,
+.menu-link:focus,
+.Web,
+.Telephone:hover,
+.Telephone:focus
  {
-    background-color: #FFFFFF;
-    color: #212121;
+  color:var(--accent-color);
 }
 
-.header-busines a:hover,
-.header-progects a:hover {
-  color: #2196F3;   
+.Contact,
+.Telephone
+{
+font-weight: 500;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color:var(--gray-text-teme-white);
+}
+.Contact:hover,
+.Contact:focus,
+.Telephone:hover,
+.Telephone:focus
+{
+color: var(--accent-color) ;
 }
 
-.header-busines a:focus,
-.header-progects a:focus {
-  outline: solid 1px;
-  color: #2196F3;   
+.Effective-solutions,
+.footer-page {
+background:var(--ES-color);
+
+}
+.main-header {
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color:var(--white-text-teme-dark);
 }
 
-.Our-team p,.features p,.Projects p{
-    color: #757575;
-}
+ .Open-button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color:var(--white-text-teme-dark);
+background-color:var(--accent-color);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px; 
 
-.Header-Web {
-    color: #2196F3;
-}
-.Busines {
-    background-color: #2F303A;
-    color: #FFFFFF;
-}
-
-.Our-team {
-    background-color: #F5F4FA;
-    color: #212121;
-}
-.Busines-footer,
-.Busines-footer a,.Contacts-footer,.Contacts-footer a {
-    background-color: #2F303A;
-    color: #FFFFFF;
-}
+ } 
  
+.Open-button:focus,
+.Open-button:hover
+  {
+background-color:var(--Button);  
+}
+.Button-many {
+    font-weight: 500;
+    font-size: 16px;
+    line-height:1,62;
+    text-align: center;
+    color:var(--black-text-teme-white);
+    
+}
+.Button-many:focus,
+.Button-many:hover {
+color:var(--white-text-teme-dark);
+background-color:var(--accent-color);
+}
+
+.about {
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+text-transform: uppercase;
+color:var(--black-text-teme-white);
+}
+.about-list {
+line-height: 1.71;
+
+}
+.title {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+color:var(--black-text-teme-white);
+}
+
+.our-comand {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.19;
+text-align: center;
+color:var(--black-text-teme-white);
+}
+
+.our-title {
+font-size: 16px;
+line-height: 1.19;
+text-align: center;
+}
+
+.logo-footer {
+font-family:var(--seccond-font);
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+color:var(--white-text-teme-dark);
+}
+.address {
+font-style: normal;
+}
+
+.Map {
+line-height: 1.71;
+color:var(--white-text-teme-dark);
+}
+
+.Contact-footer,
+.Telephone-footer {
+line-height: 1.71;
+color:var(--footer-contact);
+}
+
+.Contact-footer:hover,
+.Contact-footer:focus,
+.Telephone-footer:hover,
+.Telephone-footer:focus
+{
+color: var(--accent-color) ;
+}
+
+.Project-page {
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+
+color:var(--black-text-teme-white);
+}
+.Progect-paragraf {
+    font-size: 16px;
+    line-height: 1.88; 
+}
