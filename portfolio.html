@@ -8,39 +8,43 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/styles.css">
    </head>
     <body>
 
     <!--HEADER-->
-    <header class="header-page"> 
-      <nav class="Nav-page">
-        <a class="logo link" href="./index.html"><span class="Web">Web</span>Studio</a>
-        <ul class="menu list">
-            <li class="menu-item"><a class="menu-link link" href="./index.html">Студія</a></li>
-            <li class="menu-item"><a class="menu-link link" href="./portfolio.html">Портфоліо</a></li>
-            <li class="menu-item"><a class="menu-link link" href="./index.html">Контакти</a></li>
-        </ul>
-        
-     </nav>
-     <ul class="list">
-        <li><a class="Contact link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a class="Telephone link" href="tel:+380961111111">+38 096 111 11 11</a></li>
-    </ul>
-   </header>
+    <header class="header-page conteiner">
+      <div class="conteiner header-conteiner">
+      <nav class="Nav-page header-nav">
+         <a class="logo link" href="./index.html"><span class="Web">Web</span>Studio</a>
+         <ul class="menu list">
+             <li class="menu-item"><a class="menu-link link" href="./index.html">Студія</a></li>
+             <li class="menu-item"><a class="menu-link link" href="./portfolio.html">Портфоліо</a></li>
+             <li class="menu-item"><a class="menu-link link" href="./index.html">Контакти</a></li>
+         </ul>
+         
+      </nav>
+      <ul class="menu-contact list">
+         <li><a class="Contact link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+         <li><a class="Telephone link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+     </ul>
+     </div>
+ </header>
    <main >
     
     
-    <section class="Projects">
+    <section class="Projects Padding">
       <h1 hidden>Портфоліо</h1>
-      <ul class="list">
+      <div class="conteiner ">
+        <ul class="list Button-Projects">
         <li><button class="Button-many" type="button">Усі</button></li>
         <li><button class="Button-many" type="button">Веб-сайти</button></li>
         <li><button class="Button-many" type="button">Додатки</button></li>
         <li><button class="Button-many" type="button">Дизайн</button></li>
         <li><button class="Button-many" type="button">Маркетинг</button></li>
       </ul>
-      <ul class="list">
+      <ul class="command list">
          <li><img src="./images/Portfolio-img1.jpg" alt="Декілька людей на фото" height="294" width="370">
          <h2 class="Project-page">Технокряк</h2>
          <p class="Progect-paragraf">Веб-сайт</p>
@@ -86,22 +90,25 @@
             <p class="Progect-paragraf">Додаток</p>
              </li>
   
-       </ul>
+       </ul></div>
+      
     </section>
    </main>
 
    <!--Contacts-->
    <footer class="footer-page"> 
-    <a class="logo-footer link" href="./index.html"><span class="Web">Web</span>Studio</a>       
-    <address>
-        <ul class="list">
+    <div class="conteiner footer-c ">
+      <div class="footer-link"><a class="logo-footer link" href="./index.html"><span class="Web">Web</span>Studio</a></div>      
+      <address class="address">
+          <ul class="footer-marg list">
 
-        <li><a class="Map link" href="https://goo.gl/maps/orAPj8MN9cgsfUdTA" target="goo.gl_blank " 
-            rel="noreferer noopener nofollow">м. Київ, пр-т Лесі Українки, 26</a></li>
-        <li class="menu-footer"><a class="Contact-footer link" href="info@example.com">info@example.com</a></li>
-        <li class="menu-footer"><a class="Telephone-footer link" href="+380991111111">+38 099 111 11 11</a></li>
-    </ul>
-    </address>
+            <div class="footer-adr"><li><a class="Map link" href="https://goo.gl/maps/orAPj8MN9cgsfUdTA" target="goo.gl_blank " 
+              rel="noreferer noopener nofollow">м. Київ, пр-т Лесі Українки, 26</a></li></div>
+          <div class="footer-adr"><li class="menu-footer"><a class="Contact-footer link" href="info@example.com">info@example.com</a></li></div>
+          <li class="menu-footer"><a class="Telephone-footer link" href="+380991111111">+38 099 111 11 11</a></li>
+      </ul>
+      </address>
+  </div> 
 </footer>
     
 </body>
